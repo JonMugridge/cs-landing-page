@@ -1,0 +1,125 @@
+/* SmartSearch Design System — generated from tokens.json */
+:root, [data-theme="light"] {
+  --ss-teal: #337984;
+  --ss-teal-dark: #1e484f;
+  --ss-teal-deep: #0d3d46;
+  --ss-teal-text: #0f6a79;
+  --ss-teal-tint: #edf6f8;
+  --ss-teal-tint-2: #c9e5ea;
+  --ss-teal-15: rgba(51,121,132,0.15);
+  --ss-teal-50: rgba(51,121,132,0.5);
+  --ss-green: #31a588;
+  --ss-orange: #ff7446;
+  --ss-orange-tag: #ff5e29;
+  --ss-blue: #2ea1b8;
+  --ss-black: #121212;
+  --ss-grey-900: #0f172a;
+  --ss-grey-700: #4b5563;
+  --ss-grey-500: #6b7280;
+  --ss-grey-400: #8c919a;
+  --ss-grey-300: #d5d7da;
+  --ss-grey-250: #d9d9d9;
+  --ss-grey-100: #f3f4f6;
+  --ss-white: #ffffff;
+  --ss-navy: #111c3d;
+  --ss-success: #04866a;
+  --ss-success-tint: #e6f3f0;
+  --ss-success-text: #036e57;
+  --ss-warning: #ffbb33;
+  --ss-warning-tint: #fff5e0;
+  --ss-warning-ink: #b7801a;
+  --ss-info: #66c0e1;
+  --ss-info-tint: #e6eff3;
+  --ss-error: #e02e31;
+  --ss-error-hover: #c60909;
+  --ss-error-tint: #fceaea;
+  --ss-error-50: rgba(224,46,49,0.5);
+  --text-primary: var(--ss-black);
+  --text-secondary: var(--ss-grey-700);
+  --text-placeholder: var(--ss-grey-500);
+  --text-disabled: var(--ss-grey-500);
+  --text-inverse: var(--ss-white);
+  --text-link: var(--ss-teal);
+  --text-error: var(--ss-error);
+  --surface-page: var(--ss-white);
+  --surface-muted: var(--ss-grey-100);
+  --surface-tint: var(--ss-teal-tint);
+  --surface-brand: var(--ss-teal-deep);
+  --surface-overlay: rgba(18,18,18,0.6);
+  --border-default: var(--ss-grey-300);
+  --border-control: var(--ss-grey-400);
+  --border-control-hover: var(--ss-grey-700);
+  --border-strong: var(--ss-grey-900);
+  --border-focus: var(--ss-teal);
+  --action-primary: var(--ss-teal);
+  --action-primary-hover: var(--ss-teal-dark);
+  --action-destructive: var(--ss-error);
+  --action-destructive-hover: var(--ss-error-hover);
+  --action-disabled: var(--ss-grey-500);
+  --shadow-tooltip: 4px 4px 9px 0px rgba(0,0,0,0.25);
+  --shadow-drawer: -4px 0px 4px 0px rgba(18,18,18,0.2);
+  --shadow-footer: 0px -3px 9px 0px rgba(18,18,18,0.16);
+  --ring-focus: 0px 0px 0px 2px rgba(51,121,132,0.5);
+  --ring-focus-error: 0px 0px 0px 2px rgba(224,46,49,0.5);
+}
+:root {
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-64: 64px;
+  --radius-checkbox: 2px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 50%;
+  --fs-display: 56px;
+  --fs-h1: 48px;
+  --fs-h2: 40px;
+  --fs-h3: 32px;
+  --fs-h4: 24px;
+  --fs-h5: 20px;
+  --fs-body: 16px;
+  --fs-small: 14px;
+  --fs-caption: 12px;
+  --lh-display: 64px;
+  --lh-h1: 56px;
+  --lh-h2: 48px;
+  --lh-h3: 40px;
+  --lh-h4: 32px;
+  --lh-h5: 24px;
+  --lh-body: 24px;
+  --lh-small: 20px;
+  --lh-caption: 16px;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --ss-gradient-deep: linear-gradient(249.713deg,#1B393F 1.18%,#165E66 99.06%);
+  --ss-gradient-bright: linear-gradient(249.713deg,#35B292 1.18%,#2EA1B8 99.06%);
+  --control-h-sm: 32px;
+  --control-h-md: 48px;
+  --control-h-lg: 56px;
+  --container-max: 1440px;
+  --breakpoint: 1440;
+  --font-size-16: 16;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --line-height-20: 20;
+  --line-height-24: 24;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.display { font-family: var(--font-sans); font-size: 56px; line-height: 64px; font-weight: 500; }
+.h1 { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 500; }
+.h2 { font-family: var(--font-sans); font-size: 40px; line-height: 48px; font-weight: 500; }
+.h3 { font-family: var(--font-sans); font-size: 32px; line-height: 40px; font-weight: 500; }
+.h4 { font-family: var(--font-sans); font-size: 24px; line-height: 32px; font-weight: 500; }
+.h5 { font-family: var(--font-sans); font-size: 20px; line-height: 24px; font-weight: 500; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.label { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 500; }
+.small { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 400; }

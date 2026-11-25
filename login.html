@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in – Customer Success hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="login">
+    <section class="login-brand">
+      <img src="assets/img/smartsearch-logo-white.png" alt="SmartSearch">
+      <div>
+        <h1>Customer Success hub</h1>
+        <p>Your tools, team news and training in one place.</p>
+      </div>
+      <p class="small">For SmartSearch staff only.</p>
+    </section>
+
+    <main class="login-form">
+      <div>
+        <div>
+          <h2>Sign in</h2>
+          <p>Use your SmartSearch Microsoft work account, the same one you use for Outlook and Teams.</p>
+        </div>
+        <!-- Sends people to Microsoft's own sign-in page. The hub never sees or stores passwords. -->
+        <a class="btn-primary" href="/.auth/login/aad?post_login_redirect_uri=/">Sign in with your work account</a>
+        <div class="help">
+          <p>You’ll be taken to the Microsoft sign-in page, then brought back to the hub.</p>
+          <p>Can’t sign in? Contact <a href="mailto:[IT_SUPPORT_EMAIL]">[IT support contact]</a>.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
