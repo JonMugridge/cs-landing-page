@@ -1,0 +1,11 @@
+[
+  { "name": "HubSpot", "description": "Customers, tickets and deals", "icon": "users", "url": "https://app.hubspot.com/" },
+  { "name": "Cezanne HR", "description": "Leave, HR records and payslips", "icon": "user-group", "url": "[CEZANNE_URL]" },
+  { "name": "Calculators", "description": "[Add a short description]", "icon": "calculator", "url": "[CALCULATORS_URL]" },
+  { "name": "Attention", "description": "Call recordings and insights", "icon": "phone", "url": "[ATTENTION_URL]" },
+  { "name": "Platform", "description": "[Add a short description]", "icon": "computer-desktop", "url": "[PLATFORM_URL]" },
+  { "name": "Ticketing", "description": "[Name of ticketing system]", "icon": "ticket", "url": "[TICKETING_URL]" },
+  { "name": "Microsoft Teams", "description": "Chat, calls and meetings", "icon": "chat-bubble-left", "url": "https://teams.microsoft.com/" },
+  { "name": "Outlook", "description": "Email and calendar", "icon": "envelope", "url": "https://outlook.office.com/" },
+  { "name": "SharePoint", "description": "Team files and documents", "icon": "folder", "url": "[SHAREPOINT_SITE_URL]" }
+]

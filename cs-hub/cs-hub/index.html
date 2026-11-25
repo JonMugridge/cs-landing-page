@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Success hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="/assets/js/icons.js" defer></script>
+  <script src="/assets/js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <img src="/assets/img/smartsearch-logo-white.png" alt="SmartSearch">
+        <span>Customer Success</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#tools">Tools</a>
+        <a href="#news">News</a>
+        <a href="#training">Training</a>
+        <span class="user" id="user-name"></span>
+        <a href="/logout">Sign out</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Customer Success hub</h1>
+      <p>Your tools, team news and training in one place.</p>
+      <form class="search" role="search" id="search-form">
+        <label class="visually-hidden" for="search-input">Search training</label>
+        <span id="search-icon"></span>
+        <input id="search-input" type="search" placeholder="Search training videos and guides" autocomplete="off">
+      </form>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="section" id="tools">
+      <h2>Quick links</h2>
+      <div class="links" id="links"></div>
+    </section>
+
+    <div class="split">
+      <section class="section news" id="news">
+        <h2>Team news</h2>
+        <div class="news-list" id="news-list"></div>
+      </section>
+      <aside class="section docs">
+        <h2>CS documents</h2>
+        <ul class="doc-list" id="doc-list"></ul>
+      </aside>
+    </div>
+
+    <section class="section" id="training">
+      <h2>Training</h2>
+      <div class="tabs" role="tablist" aria-label="Training">
+        <button class="tab" role="tab" id="tab-internal" aria-controls="training-panel" aria-selected="true" data-audience="internal">Internal training</button>
+        <button class="tab" role="tab" id="tab-external" aria-controls="training-panel" aria-selected="false" data-audience="external" tabindex="-1">External training</button>
+      </div>
+      <div class="panel" role="tabpanel" id="training-panel" aria-labelledby="tab-internal">
+        <header>
+          <h3 id="panel-title">Internal training</h3>
+          <p id="panel-intro"></p>
+        </header>
+        <div class="product">
+          <span id="product-label">Product</span>
+          <div class="pills" role="group" aria-labelledby="product-label">
+            <button class="pill" type="button" aria-pressed="true" data-product="SmartSearch">SmartSearch</button>
+            <button class="pill" type="button" aria-pressed="false" data-product="Credas">Credas</button>
+          </div>
+        </div>
+        <div id="groups"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
