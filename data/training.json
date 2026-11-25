@@ -428,16 +428,6 @@
     "description": "[What it covers and who it is for]"
   },
   {
-    "title": "[SmartSearch GitHub training title]",
-    "product": "SmartSearch",
-    "type": "github",
-    "audience": [
-      "internal"
-    ],
-    "url": "#",
-    "description": "[What it covers and who it is for]"
-  },
-  {
     "title": "[Credas guide title]",
     "product": "Credas",
     "type": "guide",
@@ -448,13 +438,18 @@
     "description": "[What it covers and who it is for]"
   },
   {
-    "title": "[Credas GitHub training title]",
-    "product": "Credas",
+    "title": "Connect training",
+    "product": "Both",
     "type": "github",
     "audience": [
       "internal"
     ],
-    "url": "#",
-    "description": "[What it covers and who it is for]"
+    "url": "https://jonmugridge.github.io/connect-training/",
+    "description": "Connect training, hosted on GitHub.",
+    "keywords": [
+      "github",
+      "training",
+      "connect"
+    ]
   }
 ]

@@ -88,9 +88,10 @@ Use the date format `YYYY-MM-DD`. The newest item gets the "New" tag automatical
 }
 ```
 
-- `product`: `SmartSearch` or `Credas`
+- `product`: `SmartSearch`, `Credas`, or `Both` (shows under either product)
 - `type`: `video`, `guide` or `github`
 - `audience`: `["internal"]`, `["external"]` or both
+- `keywords` (optional): extra search words, e.g. `["github", "training", "connect"]`
 
 ---
 
@@ -152,5 +153,5 @@ Each person can set it in Chrome under **Settings → On startup → Open a spec
 ## Known limitations and next steps
 
 - **News needs a GitHub edit.** Marketing would need GitHub access to post news this way. A friendlier option for later is to keep news in a SharePoint list and have the hub read it through Microsoft Graph, which needs developer work.
-- **Search covers training only.** It filters training videos, guides and GitHub training by title and description.
+- **Search covers training only.** It searches all training (both tabs, both products) by title, description, format and keywords. Pressing Enter opens the result directly when there is exactly one match.
 - **Placeholders.** Links in square brackets show as unclickable (`#`) until they are replaced with real addresses.

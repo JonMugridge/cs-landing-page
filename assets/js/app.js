@@ -135,6 +135,26 @@
 
   // ---------- training ----------
 
+  // Search covers all training, whichever tab or product is selected.
+  // Matches the title, description, format (e.g. "GitHub training") and any keywords.
+  function searchText(item) {
+    var group = GROUPS.filter(function (g) { return g.type === item.type; })[0];
+    return [item.title, item.description, item.product, group ? group.format : '', (item.keywords || []).join(' ')]
+      .join(' ').toLowerCase();
+  }
+
+  function searchTraining(query) {
+    var words = query.split(/\s+/).filter(Boolean);
+    var seen = {};
+    return training.filter(function (item) {
+      var text = searchText(item);
+      var match = words.every(function (w) { return text.indexOf(w) !== -1; });
+      if (!match || seen[item.url + item.title]) return false;
+      seen[item.url + item.title] = true;
+      return true;
+    });
+  }
+
   function card(item, group) {
     var url = safeUrl(item.url);
     var attrs = { href: url, text: item.title };
@@ -154,13 +174,10 @@
     document.getElementById('panel-intro').textContent = INTROS[state.audience];
 
     var query = state.query.trim().toLowerCase();
-    var visible = training.filter(function (item) {
+    var visible = query ? searchTraining(query) : training.filter(function (item) {
       var forAudience = (item.audience || []).indexOf(state.audience) !== -1;
-      if (!forAudience) return false;
-      if (query) {
-        return (item.title + ' ' + (item.description || '')).toLowerCase().indexOf(query) !== -1;
-      }
-      return item.product === state.product;
+      var forProduct = item.product === state.product || item.product === 'Both';
+      return forAudience && forProduct;
     });
 
     if (query && !visible.length) {
@@ -239,8 +256,16 @@
       state.query = input.value;
       renderTraining();
     });
+    // Press Enter: if exactly one item matches, open it straight away; otherwise jump to the results.
     document.getElementById('search-form').addEventListener('submit', function (e) {
       e.preventDefault();
+      var query = input.value.trim().toLowerCase();
+      var results = query ? searchTraining(query) : [];
+      var url = results.length === 1 ? safeUrl(results[0].url) : '#';
+      if (url !== '#') {
+        window.open(url, isExternal(url) ? '_blank' : '_self', 'noopener');
+        return;
+      }
       document.getElementById('training').scrollIntoView({ behavior: 'smooth' });
     });
   }
