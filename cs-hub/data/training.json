@@ -1,0 +1,460 @@
+[
+  {
+    "title": "Welcome To SmartSearch",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/c9c60a28-2f5d-4fa3-b9c7-9d16fa5093a1",
+    "description": "An introduction to SmartSearch and an overview of the platform."
+  },
+  {
+    "title": "How to Register and Log In",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/889fbe22-9bdf-489c-84cd-f9907bcc711c",
+    "description": "How to register for a SmartSearch account and log in."
+  },
+  {
+    "title": "How to Manage Users",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/9f04c1e6-6bb4-47e5-9795-484b3dceede5",
+    "description": "How to manage the users on your SmartSearch account."
+  },
+  {
+    "title": "Action Due Diligence",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/7aa3fa8e-3a3b-4711-adc9-d8a104a3cae8",
+    "description": "How to action due diligence in SmartSearch."
+  },
+  {
+    "title": "Complete a Digital Fraud Check",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/3949317e-094d-4bf6-843e-128b41d59bcc",
+    "description": "How to complete a Digital Fraud Check, step by step."
+  },
+  {
+    "title": "Complete a SmartDoc",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/75992d95-b891-464c-9c37-7e59bf8736c7",
+    "description": "How to complete a SmartDoc, step by step."
+  },
+  {
+    "title": "Complete a TripleCheck",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/b456bff9-0968-4f3f-9f41-d2a2bb61ff99",
+    "description": "How to complete a TripleCheck, step by step."
+  },
+  {
+    "title": "Complete a UK Business Check",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/4f1196cb-a728-4c46-bfa9-8ef0cdef22bc",
+    "description": "How to run a check on a UK business."
+  },
+  {
+    "title": "Complete a UK Individual Check",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/24310264-2a43-47c7-95bb-a40092450f7c",
+    "description": "How to run a check on an individual in the UK."
+  },
+  {
+    "title": "Complete an International Individual Check",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/1461d282-7b57-4620-ba7e-645e6123e867",
+    "description": "How to run a check on an individual based outside the UK."
+  },
+  {
+    "title": "Access Automated Reports",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/4b6fa627-6313-4edc-a228-68dc82ef84e7",
+    "description": "Where to find and access your automated reports."
+  },
+  {
+    "title": "Design Risk Assessments",
+    "product": "SmartSearch",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/27c07c20-49b8-41ce-a233-54123454b6d7",
+    "description": "How to design and set up risk assessments."
+  },
+  {
+    "title": "Welcome To Credas",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/89317678-e3e7-4ac4-8c4d-bbcdb1e240ac",
+    "description": "An introduction to Credas and an overview of the platform."
+  },
+  {
+    "title": "Register and Log In",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/24c383ae-1dbd-40b6-a305-ae76201b2fef",
+    "description": "How to register for a Credas account and log in."
+  },
+  {
+    "title": "Managing Users",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/c0c4a71a-74b7-46ca-b04f-d8f203d91cbc",
+    "description": "How to manage the users on your Credas account."
+  },
+  {
+    "title": "Reviewing Results",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/e53ad8a0-d47f-4f4c-8741-0f26c52a279e",
+    "description": "How to review the results of a check."
+  },
+  {
+    "title": "Sending Invites",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/1a26485f-b19c-4b23-b45d-398535ec746f",
+    "description": "How to send an invite to an individual to complete a check."
+  },
+  {
+    "title": "Export & Save PDFs",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/9824cc71-bbd3-4050-8079-8a4cd11371d9",
+    "description": "How to export results and save them as PDFs."
+  },
+  {
+    "title": "Resubmitting an Identity Check",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/e89a093f-e9de-4170-9fed-bca9ba3642f6",
+    "description": "How to resubmit an identity check."
+  },
+  {
+    "title": "Adding New Users",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/4050a27d-4ded-4ee2-b9be-f7596054e65c",
+    "description": "How to add new users to your account."
+  },
+  {
+    "title": "Delete an Individual",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/4579fafa-ff6c-44b5-a7ae-d04dd4c777cc",
+    "description": "How to delete an individual’s record."
+  },
+  {
+    "title": "Quick Actions Menu",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/e5622802-e6b2-4292-ad4c-2c7eb28ba801",
+    "description": "A tour of the Quick Actions menu and what it lets you do."
+  },
+  {
+    "title": "Updating an Individual’s Name",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/86c77d4d-1be0-4b26-81b7-3fe1a93856c1",
+    "description": "How to update the name on an individual’s record."
+  },
+  {
+    "title": "Liveness Checks",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/fe6d339a-faae-405f-8e0a-0eaff6dea87c",
+    "description": "How liveness checks work and how to use them."
+  },
+  {
+    "title": "Right to Rent",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/606ca8e9-72bc-4655-bd5a-6d47c8f1a309",
+    "description": "How to carry out Right to Rent checks."
+  },
+  {
+    "title": "Right to Work",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/86f7b5ed-8375-4573-aeb2-7f08f2556499",
+    "description": "How to carry out Right to Work checks."
+  },
+  {
+    "title": "Landlord Checks",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/4429a453-2ee3-4dfa-b3a1-1cde105c7b51",
+    "description": "How to carry out landlord checks."
+  },
+  {
+    "title": "Director Verification Results",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/c051fa8c-6b9b-4501-a471-14c4ceacfe61",
+    "description": "How to read the results of a director verification."
+  },
+  {
+    "title": "Obtaining KYB Reports",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/c6a6e179-918a-403e-8632-5291baa24806",
+    "description": "How to obtain a Know Your Business (KYB) report."
+  },
+  {
+    "title": "Understanding a KYB Report",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/c1ad3ecf-d139-4f55-b0e9-d28dffe8e53c",
+    "description": "A walkthrough of what a KYB report contains and how to read it."
+  },
+  {
+    "title": "Run a KYC Check from a KYB Report",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/b4ac469d-c7e4-4e91-9b73-9327e2eb6f6d",
+    "description": "How to start a Know Your Customer (KYC) check from a KYB report."
+  },
+  {
+    "title": "Manual Checks",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/600a9b76-a0af-438d-b5f9-2951353208c6",
+    "description": "How to complete manual checks."
+  },
+  {
+    "title": "In-Person Checks",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/84da6dbb-ad62-4926-a183-b6e8a99c74ff",
+    "description": "How to complete in-person checks."
+  },
+  {
+    "title": "Proof of Ownership/Land Registry Checks",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/7900eec1-ae36-472d-8ae4-fba34e6eaa5a",
+    "description": "How to run proof of ownership checks using Land Registry records."
+  },
+  {
+    "title": "Resending Invites",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/28d95355-9953-4d6f-8f1d-75fe85d8bf8d",
+    "description": "How to resend an invite that has already been sent."
+  },
+  {
+    "title": "Sending an Invite to an Existing Individual",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/874f009b-466e-4ae5-a4fc-fc40ec1af88a",
+    "description": "How to send a new invite to someone already on your account."
+  },
+  {
+    "title": "Access the Admin Portal",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/9d06443e-001e-466d-871f-85dfaa8c02be",
+    "description": "How to access the admin portal."
+  },
+  {
+    "title": "Running a Company Check",
+    "product": "Credas",
+    "type": "video",
+    "audience": [
+      "internal",
+      "external"
+    ],
+    "url": "https://share.synthesia.io/8c7b240a-f9bc-4e7a-8486-cd56b38dbfd2",
+    "description": "How to run a check on a company."
+  },
+  {
+    "title": "[SmartSearch guide title]",
+    "product": "SmartSearch",
+    "type": "guide",
+    "audience": [
+      "internal"
+    ],
+    "url": "#",
+    "description": "[What it covers and who it is for]"
+  },
+  {
+    "title": "[SmartSearch GitHub training title]",
+    "product": "SmartSearch",
+    "type": "github",
+    "audience": [
+      "internal"
+    ],
+    "url": "#",
+    "description": "[What it covers and who it is for]"
+  },
+  {
+    "title": "[Credas guide title]",
+    "product": "Credas",
+    "type": "guide",
+    "audience": [
+      "internal"
+    ],
+    "url": "#",
+    "description": "[What it covers and who it is for]"
+  },
+  {
+    "title": "[Credas GitHub training title]",
+    "product": "Credas",
+    "type": "github",
+    "audience": [
+      "internal"
+    ],
+    "url": "#",
+    "description": "[What it covers and who it is for]"
+  }
+]
